@@ -4,7 +4,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import Image from 'next/image';
-import { ArrowRight, MapPin, Star, Clock, DollarSign } from 'lucide-react';
+import { ArrowRight, MapPin, Star, Clock, DollarSign, AlertTriangle } from 'lucide-react';
 import { PartnerConfig } from '@/types/partner';
 import { formSchema, type FormData, homeSizeOptions } from '@/lib/validation';
 import { buildRedirectUrl, CP_BRAND } from '@/lib/partners';
@@ -79,8 +79,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
             {/* Headline */}
             <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              <span className="block">Pay <span className="font-extrabold">as little as possible</span> for your</span>
-              <span className="block mt-2 text-yellow-300">electricity plan</span>
+              <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span> for your</span>
+              <span className="block mt-2">electricity plan</span>
             </h1>
 
             {/* Subheading */}
@@ -132,7 +132,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
           {/* Right Column - Form */}
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all hover:shadow-2xl">
-              <div className="bg-gradient-to-r from-cp-primary/10 to-cp-secondary/10 px-6 py-4 border-b border-gray-100">
+              <div className="bg-gradient-to-r from-blue-50 to-orange-50 px-6 py-4 border-b border-gray-100">
                 <h2 className="text-lg font-bold text-gray-900">Get Power in Minutes</h2>
               </div>
               <div className="px-6 py-6">
@@ -155,7 +155,10 @@ export function HeroSection({ partner }: HeroSectionProps) {
                             handleFormStart();
                           }}
                         >
-                          <span className="font-medium text-sm">{option.label}</span>
+                          <div className="text-center">
+                            <div className="font-medium text-sm">{option.label}</div>
+                            <div className="text-xs text-gray-500 mt-0.5">{option.description}</div>
+                          </div>
                         </div>
                       ))}
                     </div>
@@ -190,7 +193,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
                   <button
                     type="submit"
-                    className="w-full bg-cp-secondary hover:bg-cp-secondary/90 text-white py-3 px-4 text-base font-bold rounded-xl shadow-md relative overflow-hidden group transition-all disabled:opacity-50"
+                    className="w-full text-white py-3 px-4 text-base font-bold rounded-xl shadow-md relative overflow-hidden group transition-all disabled:opacity-50"
+                    style={{ backgroundColor: '#eb5a41' }}
                     disabled={form.formState.isSubmitting}
                   >
                     {form.formState.isSubmitting ? (
@@ -209,10 +213,32 @@ export function HeroSection({ partner }: HeroSectionProps) {
                     )}
                   </button>
 
-                  <div className="text-center text-sm text-gray-500">
-                    in minutes
+                  <div className="bg-green-50 rounded-lg p-3 border border-green-200">
+                    <div className="flex items-start">
+                      <div className="flex-shrink-0">
+                        <Clock className="h-5 w-5 text-green-600" />
+                      </div>
+                      <div className="ml-3">
+                        <h3 className="text-sm font-medium text-green-800">Same-Day Connection Available</h3>
+                        <p className="text-xs text-green-700 mt-1">
+                          Orders placed before 5PM (Mon-Sat) can get connected today!
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </form>
+              </div>
+
+              {/* Transfer warning below main form */}
+              <div className="px-6 pb-6 pt-0">
+                <div className="flex items-start text-amber-700 text-sm">
+                  <div className="flex-shrink-0 mt-0.5 mr-2">
+                    <AlertTriangle className="h-4 w-4" />
+                  </div>
+                  <p>
+                    <span className="font-medium">Moving within Texas?</span> Don&apos;t transfer blindly. Your current plan was priced for your old home, not your new one. <span className="underline font-medium cursor-pointer">Compare options</span>
+                  </p>
+                </div>
               </div>
             </div>
 
