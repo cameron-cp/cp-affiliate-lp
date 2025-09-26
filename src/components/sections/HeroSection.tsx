@@ -43,16 +43,30 @@ export function HeroSection({ partner }: HeroSectionProps) {
   const logoAlt = partner?.partner_logo_alt_text || CP_BRAND.logo_alt;
 
   return (
-    <section className="relative overflow-hidden">
-      {/* Background with subtle pattern */}
-      <div
-        className="absolute inset-0 bg-gradient-to-br"
-        style={{
-          background: 'linear-gradient(to bottom right, #22baed, #eb5a41)'
-        }}
-      >
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
+    <>
+      {/* Trust Banner */}
+      <div className="bg-white/90 backdrop-blur-sm border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-3 text-center">
+          <div className="text-sm text-gray-700">
+            🤜 🤛 See why {partner?.partner_name ? (
+              <span className="font-semibold">{partner.partner_name}</span>
+            ) : (
+              "Texans"
+            )} trust Compare Power with their electricity shopping needs.
+          </div>
+        </div>
       </div>
+
+      <section className="relative overflow-hidden">
+        {/* Background with subtle pattern */}
+        <div
+          className="absolute inset-0 bg-gradient-to-br"
+          style={{
+            background: 'linear-gradient(to bottom right, #22baed, #eb5a41)'
+          }}
+        >
+          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        </div>
 
       <div className="relative max-w-7xl mx-auto px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -87,7 +101,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
             <p className="mt-6 text-xl text-white/90">
               Compare plans from top competing energy providers and get the best one instantly. Trusted by millions of happy Texans.
               {partner?.partner_name && (
-                <> Trusted by {partner.partner_name}.</>
+                <> Trusted by <span className="font-bold">{partner.partner_name}</span>.</>
               )}
             </p>
 
@@ -97,17 +111,17 @@ export function HeroSection({ partner }: HeroSectionProps) {
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
                     <Star className="h-5 w-5 text-yellow-300 fill-current mr-1.5" />
-                    <span className="text-xl font-bold text-white">70,000+</span>
+                    <span className="text-xl font-bold text-white">4.9/5</span>
                   </div>
-                  <p className="text-sm text-white/80 mt-1.5 text-center">5-Star Reviews</p>
+                  <p className="text-sm text-white/80 mt-1.5 text-center">Customer Rating</p>
                 </div>
 
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
-                    <Clock className="h-5 w-5 text-yellow-300 mr-1.5" />
-                    <span className="text-xl font-bold text-white">16 Years</span>
+                    <Star className="h-5 w-5 text-yellow-300 fill-current mr-1.5" />
+                    <span className="text-xl font-bold text-white">80,000</span>
                   </div>
-                  <p className="text-sm text-white/80 mt-1.5 text-center">Serving Texans</p>
+                  <p className="text-sm text-white/80 mt-1.5 text-center">Verified Reviews</p>
                 </div>
 
                 <div className="flex flex-col items-center justify-center h-full">
@@ -120,10 +134,10 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
-                    <DollarSign className="h-5 w-5 text-green-400 mr-1.5" />
-                    <span className="text-xl font-bold text-white">$700M+</span>
+                    <Clock className="h-5 w-5 text-yellow-300 mr-1.5" />
+                    <span className="text-xl font-bold text-white">16 Years</span>
                   </div>
-                  <p className="text-sm text-white/80 mt-1.5 text-center">Saved for Texans</p>
+                  <p className="text-sm text-white/80 mt-1.5 text-center">Serving Texans</p>
                 </div>
               </div>
             </div>
@@ -248,6 +262,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   );
 }
