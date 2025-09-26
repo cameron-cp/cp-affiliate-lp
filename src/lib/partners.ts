@@ -37,9 +37,20 @@ export async function getPartnerConfig(partnerCode?: string): Promise<PartnerCon
   return partner;
 }
 
-export function buildRedirectUrl(zipCode: string, partnerCode?: string): string {
+export function buildRedirectUrl(zipCode: string, homeSize: string, partnerCode?: string): string {
   const baseUrl = 'https://orders.comparepower.com/';
   const params = new URLSearchParams({ zip_code: zipCode });
+
+  // Map home size to usage amount
+  const usageMap = {
+    small: '500',
+    medium: '1000',
+    large: '2000',
+    xlarge: '3000',
+  };
+
+  const usage = usageMap[homeSize as keyof typeof usageMap] || '1000';
+  params.append('usage', usage);
 
   if (partnerCode) {
     params.append('cp_afid', partnerCode);
