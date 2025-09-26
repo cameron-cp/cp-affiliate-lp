@@ -23,7 +23,7 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Texas's leading electricity marketplace, helping millions of Texans save money on their electricity bills since 2012.
+              Texas&apos;s leading electricity marketplace, helping millions of Texans save money on their electricity bills since 2012.
             </p>
             <div className="space-y-2">
               <div className="flex items-center">

@@ -11,8 +11,8 @@ export function TrustSection() {
             Why Texans Trust Compare Power
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            For over a decade, we've helped millions of Texans find the best electricity rates.
-            Here's why we're Texas's #1 energy marketplace.
+            For over a decade, we&apos;ve helped millions of Texans find the best electricity rates.
+            Here&apos;s why we&apos;re Texas&apos;s #1 energy marketplace.
           </p>
         </div>
 

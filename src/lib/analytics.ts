@@ -3,7 +3,14 @@ import { TrackingEvents } from '@/types/partner';
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
-    fbq: (...args: unknown[]) => void;
+    fbq: {
+      (...args: unknown[]): void;
+      callMethod?: (...args: unknown[]) => void;
+      queue: unknown[];
+      push: unknown;
+      loaded?: boolean;
+      version?: string;
+    };
     dataLayer: unknown[];
   }
 }
@@ -83,17 +90,20 @@ export function initializeAnalytics() {
   // Facebook Pixel
   const FB_PIXEL_ID = process.env.NEXT_PUBLIC_FB_PIXEL_ID;
   if (FB_PIXEL_ID) {
-    window.fbq = function (...args: unknown[]) {
-      if (window.fbq.callMethod) {
-        window.fbq.callMethod(...args);
+    const fbqFunction = function (...args: unknown[]) {
+      if (fbqFunction.callMethod) {
+        fbqFunction.callMethod(...args);
       } else {
-        window.fbq.queue.push(args);
+        fbqFunction.queue.push(args);
       }
-    };
-    window.fbq.push = window.fbq;
-    window.fbq.loaded = true;
-    window.fbq.version = '2.0';
-    window.fbq.queue = [];
+    } as Window['fbq'];
+
+    fbqFunction.queue = [];
+    fbqFunction.push = fbqFunction;
+    fbqFunction.loaded = true;
+    fbqFunction.version = '2.0';
+
+    window.fbq = fbqFunction;
 
     const script = document.createElement('script');
     script.async = true;

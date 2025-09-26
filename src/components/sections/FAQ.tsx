@@ -63,7 +63,7 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Got questions? We've got answers. Here are the most common questions about switching electricity providers in Texas.
+            Got questions? We&apos;ve got answers. Here are the most common questions about switching electricity providers in Texas.
           </p>
         </div>
 

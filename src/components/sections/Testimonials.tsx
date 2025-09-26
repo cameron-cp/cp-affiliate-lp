@@ -35,7 +35,7 @@ export function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. See how Compare Power has helped thousands of Texans save money on their electricity bills.
+            Don&apos;t just take our word for it. See how Compare Power has helped thousands of Texans save money on their electricity bills.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export function Testimonials() {
 
               {/* Testimonial Text */}
               <p className="text-gray-600 mb-6 italic leading-relaxed">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
 
               {/* Customer Info */}
