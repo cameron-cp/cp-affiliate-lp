@@ -45,7 +45,12 @@ export function HeroSection({ partner }: HeroSectionProps) {
   return (
     <section className="relative overflow-hidden">
       {/* Background with subtle pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-cp-primary to-cp-secondary">
+      <div
+        className="absolute inset-0 bg-gradient-to-br"
+        style={{
+          background: 'linear-gradient(to bottom right, #22baed, #eb5a41)'
+        }}
+      >
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:24px_24px]"></div>
       </div>
 
