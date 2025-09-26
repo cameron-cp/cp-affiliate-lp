@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirect rules for Next.js routing
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
+  conditions = {Role = ["admin"]}
+
+# Handle trailing slashes
+[[redirects]]
+  from = "/*/"
+  to = "/:splat"
+  status = 301
