@@ -1,20 +1,23 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import Image from 'next/image';
-import { ArrowRight, MapPin, Star, Clock, DollarSign, AlertTriangle } from 'lucide-react';
+import { ArrowRight, MapPin, Star, Clock, DollarSign, AlertTriangle, UserCheck, ChartNoAxesCombined } from 'lucide-react';
 import { PartnerConfig } from '@/types/partner';
 import { formSchema, type FormData, homeSizeOptions } from '@/lib/validation';
 import { buildRedirectUrl, CP_BRAND } from '@/lib/partners';
 import { analytics } from '@/lib/analytics';
+import { TransferModal } from '@/components/TransferModal';
 
 interface HeroSectionProps {
   partner?: PartnerConfig | null;
 }
 
 export function HeroSection({ partner }: HeroSectionProps) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -52,7 +55,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
               <span className="font-semibold">{partner.partner_name}</span>
             ) : (
               "Texans"
-            )} trust Compare Power with their electricity shopping needs.
+            )} trusts Compare Power with their electricity shopping needs.
           </div>
         </div>
       </div>
@@ -101,7 +104,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
             <p className="mt-6 text-xl text-white/90">
               Compare plans from top competing energy providers and get the best one instantly. Trusted by millions of happy Texans.
               {partner?.partner_name && (
-                <> Trusted by <span className="font-bold">{partner.partner_name}</span>.</>
+                <> Trusted by <span className="font-bold text-yellow-200">{partner.partner_name}</span>.</>
               )}
             </p>
 
@@ -118,7 +121,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
-                    <Star className="h-5 w-5 text-yellow-300 fill-current mr-1.5" />
+                    <UserCheck className="h-5 w-5 text-green-400 mr-1.5" />
                     <span className="text-xl font-bold text-white">80,000</span>
                   </div>
                   <p className="text-sm text-white/80 mt-1.5 text-center">Verified Reviews</p>
@@ -126,7 +129,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
-                    <DollarSign className="h-5 w-5 text-yellow-300 mr-1.5" />
+                    <ChartNoAxesCombined className="h-5 w-5 text-blue-300 mr-1.5" />
                     <span className="text-xl font-bold text-white">2.3M+</span>
                   </div>
                   <p className="text-sm text-white/80 mt-1.5 text-center">Orders Processed</p>
@@ -134,7 +137,7 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
                 <div className="flex flex-col items-center justify-center h-full">
                   <div className="flex items-center justify-center">
-                    <Clock className="h-5 w-5 text-yellow-300 mr-1.5" />
+                    <Clock className="h-5 w-5 text-orange-300 mr-1.5" />
                     <span className="text-xl font-bold text-white">16 Years</span>
                   </div>
                   <p className="text-sm text-white/80 mt-1.5 text-center">Serving Texans</p>
@@ -250,7 +253,12 @@ export function HeroSection({ partner }: HeroSectionProps) {
                     <AlertTriangle className="h-4 w-4" />
                   </div>
                   <p>
-                    <span className="font-medium">Moving within Texas?</span> Don&apos;t transfer blindly. Your current plan was priced for your old home, not your new one. <span className="underline font-medium cursor-pointer">Compare options</span>
+                    <span className="font-medium">Moving within Texas?</span> Don&apos;t transfer blindly. Your current plan was priced for your old home, not your new one. <span
+                      className="underline font-medium cursor-pointer text-blue-600 hover:text-blue-800"
+                      onClick={() => setIsModalOpen(true)}
+                    >
+                      Learn More
+                    </span>
                   </p>
                 </div>
               </div>
@@ -263,6 +271,12 @@ export function HeroSection({ partner }: HeroSectionProps) {
         </div>
       </div>
       </section>
+
+      {/* Transfer Modal */}
+      <TransferModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </>
   );
 }
