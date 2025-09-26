@@ -38,7 +38,7 @@ export async function getPartnerConfig(partnerCode?: string): Promise<PartnerCon
 }
 
 export function buildRedirectUrl(zipCode: string, homeSize: string, partnerCode?: string): string {
-  const baseUrl = 'https://orders.comparepower.com/';
+  const baseUrl = 'https://comparepower.com/';
   const params = new URLSearchParams({ zip_code: zipCode });
 
   // Map home size to usage amount
