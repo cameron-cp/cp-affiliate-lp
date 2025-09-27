@@ -110,8 +110,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
             {/* Form - Mobile Priority */}
             <div className="relative mb-10">
               <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-                <div className="bg-gradient-to-r from-blue-100 to-orange-100 px-6 py-4 border-b border-gray-200">
-                  <h2 className="text-lg font-bold text-gray-900">Get Power</h2>
+                <div className="bg-gradient-to-r from-blue-50 to-orange-50 px-6 py-4 border-b border-gray-100">
+                  <h2 className="text-lg font-bold text-gray-900">Get Power in Minutes</h2>
                 </div>
                 <div className="px-6 py-6">
                   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
@@ -342,8 +342,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
             {/* Right Column - Form */}
             <div className="relative">
               <div className="bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all hover:shadow-2xl">
-                <div className="bg-gradient-to-r from-blue-100 to-orange-100 px-6 py-4 border-b border-gray-200">
-                  <h2 className="text-lg font-bold text-gray-900">Get Power</h2>
+                <div className="bg-gradient-to-r from-blue-50 to-orange-50 px-6 py-4 border-b border-gray-100">
+                  <h2 className="text-lg font-bold text-gray-900">Get Power in Minutes</h2>
                 </div>
                 <div className="px-6 py-6">
                   <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5">
