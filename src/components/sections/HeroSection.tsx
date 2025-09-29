@@ -76,16 +76,14 @@ export function HeroSection({ partner }: HeroSectionProps) {
           <div className="lg:hidden">
             {/* Partner Logo */}
             <div className="flex justify-center mb-8">
-              <div className="bg-white p-4 rounded-lg shadow-sm">
-                <Image
-                  src={logoUrl}
-                  alt={logoAlt}
-                  width={200}
-                  height={80}
-                  className="h-16 w-auto object-contain"
-                  priority
-                />
-              </div>
+              <Image
+                src={logoUrl}
+                alt={logoAlt}
+                width={200}
+                height={80}
+                className="h-16 w-auto object-contain"
+                priority
+              />
             </div>
 
             {/* All Caps Message */}
@@ -270,16 +268,14 @@ export function HeroSection({ partner }: HeroSectionProps) {
             <div className="text-center lg:text-left">
               {/* Partner Logo */}
               <div className="flex justify-center lg:justify-start mb-8">
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <Image
-                    src={logoUrl}
-                    alt={logoAlt}
-                    width={200}
-                    height={80}
-                    className="h-16 w-auto object-contain"
-                    priority
-                  />
-                </div>
+                <Image
+                  src={logoUrl}
+                  alt={logoAlt}
+                  width={200}
+                  height={80}
+                  className="h-16 w-auto object-contain"
+                  priority
+                />
               </div>
 
               {/* All Caps Message */}
