@@ -12,7 +12,7 @@ export const DEFAULT_CONFIG: PartnerConfig = {
 
 // Compare Power brand constants
 export const CP_BRAND = {
-  logo_url: '/logos/CPLogo_4c_H.svg',
+  logo_url: '/logos/CPLogo_4C_H_Reverse.svg',
   logo_alt: 'Compare Power - The Power Is Yours',
   tagline: 'The Power Is Yours',
   colors: {

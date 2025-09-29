@@ -1,5 +1,6 @@
 import { getPartnerConfig } from '@/lib/partners';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { WhyChooseSection } from '@/components/sections/WhyChooseSection';
 import { TrustSection } from '@/components/sections/TrustSection';
 import { HowItWorks } from '@/components/sections/HowItWorks';
 import { Testimonials } from '@/components/sections/Testimonials';
@@ -19,6 +20,7 @@ export default async function HomePage({ searchParams }: PageProps) {
   return (
     <main className="min-h-screen">
       <HeroSection partner={partnerConfig} />
+      <WhyChooseSection />
       <TrustSection />
       <HowItWorks />
       <Testimonials />
