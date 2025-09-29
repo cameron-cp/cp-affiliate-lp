@@ -8,7 +8,7 @@ export function WhyChooseSection() {
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-gray-900">Why Choose ComparePower</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-            Join 2 million+ satisfied Texans who've simplified their electricity setup
+            Join 2 million+ satisfied Texans who&apos;ve simplified their electricity setup
           </p>
         </div>
 
