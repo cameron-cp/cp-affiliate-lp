@@ -47,18 +47,16 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
   return (
     <>
-      {/* Trust Banner */}
-      <div className="bg-white/90 backdrop-blur-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 py-3 text-center">
-          <div className="text-sm text-gray-700">
-            🤜 🤛 See why {partner?.partner_name ? (
-              <span className="font-semibold">{partner.partner_name}</span>
-            ) : (
-              "Texans"
-            )} trusts Compare Power with your electricity shopping needs.
+      {/* Trust Banner - Only show if valid partner */}
+      {partner && (
+        <div className="bg-white/90 backdrop-blur-sm border-b border-gray-200">
+          <div className="max-w-7xl mx-auto px-4 py-3 text-center">
+            <div className="text-sm text-gray-700">
+              🤜 🤛 See why <span className="font-semibold">{partner.partner_name}</span> trusts Compare Power with your electricity shopping needs.
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <section className="relative overflow-hidden">
         {/* Background with subtle pattern */}
@@ -93,8 +91,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
             {/* Headline */}
             <h1 className="text-3xl font-extrabold tracking-tight text-white text-center mb-6">
-              <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span> for your</span>
-              <span className="block mt-2">electricity plan</span>
+              <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span></span>
+              <span className="block mt-2">for your electricity plan</span>
             </h1>
 
             {/* Form - Mobile Priority */}
@@ -285,8 +283,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
               {/* Headline */}
               <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span> for your</span>
-                <span className="block mt-2">electricity plan</span>
+                <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span></span>
+                <span className="block mt-2">for your electricity plan</span>
               </h1>
 
               {/* Subheading */}
