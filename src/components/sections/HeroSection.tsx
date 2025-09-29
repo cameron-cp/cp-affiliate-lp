@@ -99,14 +99,6 @@ export function HeroSection({ partner }: HeroSectionProps) {
               <span className="block mt-2">electricity plan</span>
             </h1>
 
-            {/* Subheading */}
-            <p className="text-lg text-white/90 text-center mb-8">
-              Compare plans from top competing energy providers and get the best one for <em>you</em>. Trusted by millions of happy Texans.
-              {partner?.partner_name && (
-                <> Trusted by <span className="font-bold text-yellow-200">{partner.partner_name}</span>.</>
-              )}
-            </p>
-
             {/* Form - Mobile Priority */}
             <div className="relative mb-10">
               <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
@@ -225,6 +217,14 @@ export function HeroSection({ partner }: HeroSectionProps) {
                 </div>
               </div>
             </div>
+
+            {/* Subheading - Below form on mobile */}
+            <p className="text-lg text-white/90 text-center mb-8">
+              Compare plans from top competing energy providers and get the best one for <em>you</em>. Trusted by millions of happy Texans.
+              {partner?.partner_name && (
+                <> Trusted by <span className="font-bold text-yellow-200">{partner.partner_name}</span>.</>
+              )}
+            </p>
 
             {/* Trust signals - Mobile */}
             <div className="py-6 px-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
@@ -458,8 +458,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
               </div>
 
               {/* Decorative elements */}
-              <div className="hidden lg:block absolute -bottom-6 -left-12 w-24 h-24 bg-yellow-400 opacity-30 rounded-full blur-xl"></div>
-              <div className="hidden lg:block absolute -top-10 -right-10 w-32 h-32 bg-cp-primary opacity-20 rounded-full blur-xl"></div>
+              <div className="hidden lg:block absolute -bottom-6 -left-12 w-24 h-24 bg-yellow-400 opacity-30 rounded-full blur-xl -z-10"></div>
+              <div className="hidden lg:block absolute -top-10 -right-10 w-32 h-32 bg-cp-primary opacity-20 rounded-full blur-xl -z-10"></div>
             </div>
           </div>
         </div>
