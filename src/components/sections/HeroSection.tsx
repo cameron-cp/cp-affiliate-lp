@@ -283,8 +283,8 @@ export function HeroSection({ partner }: HeroSectionProps) {
 
               {/* Headline */}
               <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span></span>
-                <span className="block mt-2">for your electricity plan</span>
+                <span className="block">Pay <span className="font-extrabold text-yellow-300">as little as possible</span> for your</span>
+                <span className="block mt-2">electricity plan</span>
               </h1>
 
               {/* Subheading */}
