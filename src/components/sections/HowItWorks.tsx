@@ -1,91 +1,68 @@
 import React from 'react';
-import { Search, GitCompare, Zap } from 'lucide-react';
+import { Home, Zap, Check } from 'lucide-react';
 
 export function HowItWorks() {
   const steps = [
     {
-      icon: Search,
-      title: 'Enter Your Details',
-      description: 'Tell us your home size and ZIP code to see personalized rates in your area.',
-      step: '01',
-    },
-    {
-      icon: GitCompare,
-      title: 'Compare Options',
-      description: 'Browse 100+ electricity plans from top-rated providers, all in one place.',
-      step: '02',
+      icon: Home,
+      title: 'Tell Us About Your Move',
+      description: 'Enter your new address and move-in date. We&apos;ll instantly verify your address.',
+      step: 1,
     },
     {
       icon: Zap,
-      title: 'Start Saving',
-      description: 'Choose your plan and start saving money on your electricity bill right away.',
-      step: '03',
+      title: 'Choose Your Plan',
+      description: 'Compare personalized recommendations based on your home&apos;s unique energy profile.',
+      step: 2,
+    },
+    {
+      icon: Check,
+      title: 'Confirm Your Order',
+      description: 'Enter your details, get instant confirmation, and have power on your move-in day.',
+      step: 3,
     },
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            How It Works
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Finding the best electricity rate in Texas is simple with Compare Power.
-            Get started in just 3 easy steps.
-          </p>
+          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-cp-primary/10 text-cp-primary mb-3">How It Works</span>
+          <h2 className="text-3xl font-bold text-gray-900">3 Simple Steps to Get Connected</h2>
         </div>
 
-        {/* Steps Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          {steps.map((step, index) => {
-            const IconComponent = step.icon;
-            return (
-              <div key={index} className="text-center relative">
-                {/* Step Number */}
-                <div className="absolute -top-4 -left-4 bg-cp-primary text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg z-10">
-                  {step.step}
-                </div>
+        <div className="relative">
+          {/* Connecting line */}
+          <div className="absolute top-24 left-0 right-0 h-0.5 bg-gray-100 md:block hidden"></div>
 
-                {/* Icon */}
-                <div className="bg-cp-primary/10 rounded-full p-6 w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                  <IconComponent className="h-12 w-12 text-cp-primary" />
-                </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {steps.map((step, index) => {
+              const IconComponent = step.icon;
+              return (
+                <div key={index} className="relative">
+                  <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all h-full flex flex-col">
+                    <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-0 h-16 w-16 rounded-full bg-cp-primary text-white flex items-center justify-center text-xl font-bold">
+                      {step.step}
+                    </div>
+                    <div className="mt-8 md:mt-0 md:ml-12">
+                      <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
+                      <p className="text-gray-600 mb-4">{step.description}</p>
 
-                {/* Content */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  {step.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {step.description}
-                </p>
-
-                {/* Connecting Line (hidden on mobile) */}
-                {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-12 left-1/2 transform -translate-y-1/2 w-full">
-                    <div className="w-full h-0.5 bg-gray-200 relative">
-                      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-3 h-3 bg-gray-200 rotate-45"></div>
+                      {index === 2 && (
+                        <div className="mt-auto pt-4">
+                          <button className="text-cp-primary hover:text-cp-primary/80 font-medium inline-flex items-center group">
+                            Get Started
+                            <svg className="ml-2 h-4 w-4 transform transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                          </button>
+                        </div>
+                      )}
                     </div>
                   </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-cp-primary to-cp-secondary p-8 rounded-2xl text-white">
-            <h3 className="text-2xl font-bold mb-4">
-              Ready to Start Saving on Your Electricity Bill?
-            </h3>
-            <p className="text-lg mb-6 opacity-90">
-              Join millions of Texans who have saved money with Compare Power.
-            </p>
-            <button className="bg-white text-cp-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Get Started Now
-            </button>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
