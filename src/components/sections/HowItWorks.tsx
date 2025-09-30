@@ -36,9 +36,7 @@ export function HowItWorks() {
           <div className="absolute top-24 left-0 right-0 h-0.5 bg-gray-100 md:block hidden"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {steps.map((step, index) => {
-              const IconComponent = step.icon;
-              return (
+            {steps.map((step, index) => (
                 <div key={index} className="relative">
                   <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all h-full flex flex-col">
                     <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-0 h-16 w-16 rounded-full bg-cp-primary text-white flex items-center justify-center text-xl font-bold">
@@ -61,8 +59,7 @@ export function HowItWorks() {
                     </div>
                   </div>
                 </div>
-              );
-            })}
+            ))}
           </div>
         </div>
       </div>

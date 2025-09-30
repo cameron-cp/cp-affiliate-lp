@@ -12,7 +12,7 @@ export function ServiceTransferSection() {
               Moving Within Texas?
             </h2>
             <p className="mt-4 text-lg text-amber-700 max-w-2xl mx-auto">
-              Don't blindly transfer your existing plan. Your current rate was optimized for your old home, not your new one.
+              Don&apos;t blindly transfer your existing plan. Your current rate was optimized for your old home, not your new one.
             </p>
           </div>
 

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import Image from 'next/image';
-import { ArrowRight, MapPin, Star, Clock, DollarSign, AlertTriangle, UserCheck, ChartNoAxesCombined } from 'lucide-react';
+import { ArrowRight, MapPin, Star, Clock, AlertTriangle, UserCheck, ChartNoAxesCombined } from 'lucide-react';
 import { PartnerConfig } from '@/types/partner';
 import { formSchema, type FormData, homeSizeOptions } from '@/lib/validation';
 import { buildRedirectUrl, CP_BRAND } from '@/lib/partners';
