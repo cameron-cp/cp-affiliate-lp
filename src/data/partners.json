@@ -1,0 +1,2622 @@
+{
+  "partners": {
+    "1022327": {
+      "partner_code": "1022327",
+      "partner_name": "Capital One Shopping",
+      "partner_logo_url": "/logos/1022327.png",
+      "partner_logo_alt_text": "Capital One Shopping - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "1282764": {
+      "partner_code": "1282764",
+      "partner_name": "Honey",
+      "partner_logo_url": "/logos/1282764.png",
+      "partner_logo_alt_text": "Honey - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "2turniton": {
+      "partner_code": "2turniton",
+      "partner_name": "2TurnItOn",
+      "partner_logo_url": "/logos/2turniton.png",
+      "partner_logo_alt_text": "2TurnItOn - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "360-realty": {
+      "partner_code": "360-realty",
+      "partner_name": "360 Realty & Management",
+      "partner_logo_url": "/logos/360-realty.png",
+      "partner_logo_alt_text": "360 Realty & Management - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "a-plus": {
+      "partner_code": "a-plus",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "a-plus-alarconl": {
+      "partner_code": "a-plus-alarconl",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-alarconl.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "a-plus-banhp": {
+      "partner_code": "a-plus-banhp",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-banhp.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "a-plus-millera": {
+      "partner_code": "a-plus-millera",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-millera.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "a-plus-rhodesk": {
+      "partner_code": "a-plus-rhodesk",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-rhodesk.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "a-plus-rubioa": {
+      "partner_code": "a-plus-rubioa",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-rubioa.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "a-plus-scotta": {
+      "partner_code": "a-plus-scotta",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-scotta.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "a-plus-tranv": {
+      "partner_code": "a-plus-tranv",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-tranv.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "a-plus-webbt": {
+      "partner_code": "a-plus-webbt",
+      "partner_name": "A Plus Solar Solutions",
+      "partner_logo_url": "/logos/a-plus-webbt.png",
+      "partner_logo_alt_text": "A Plus Solar Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "ava": {
+      "partner_code": "ava",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "ava-alayna": {
+      "partner_code": "ava-alayna",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-alayna.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "ava-hazel": {
+      "partner_code": "ava-hazel",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-hazel.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "ava-herbert": {
+      "partner_code": "ava-herbert",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-herbert.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "ava-jonas": {
+      "partner_code": "ava-jonas",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-jonas.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "ava-lacey": {
+      "partner_code": "ava-lacey",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-lacey.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "ava-laura": {
+      "partner_code": "ava-laura",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-laura.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "ava-victoria": {
+      "partner_code": "ava-victoria",
+      "partner_name": "AVA",
+      "partner_logo_url": "/logos/ava-victoria.png",
+      "partner_logo_alt_text": "AVA - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "angel-arroyo": {
+      "partner_code": "angel-arroyo",
+      "partner_name": "Angel Arroyo",
+      "partner_logo_url": "/logos/angel-arroyo.png",
+      "partner_logo_alt_text": "Angel Arroyo - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "arbrook-park": {
+      "partner_code": "arbrook-park",
+      "partner_name": "Arbrook Park",
+      "partner_logo_url": "/logos/arbrook-park.png",
+      "partner_logo_alt_text": "Arbrook Park - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "ashton-oaks": {
+      "partner_code": "ashton-oaks",
+      "partner_name": "Ashton Oaks Apartments",
+      "partner_logo_url": "/logos/ashton-oaks.png",
+      "partner_logo_alt_text": "Ashton Oaks Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "atlantis-light-power": {
+      "partner_code": "atlantis-light-power",
+      "partner_name": "Atlantis Light & Power",
+      "partner_logo_url": "/logos/atlantis-light-power.png",
+      "partner_logo_alt_text": "Atlantis Light & Power - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "bear-creek-villas": {
+      "partner_code": "bear-creek-villas",
+      "partner_name": "Bear Creek Villas",
+      "partner_logo_url": "/logos/bear-creek-villas.png",
+      "partner_logo_alt_text": "Bear Creek Villas - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "benjamin-borrero": {
+      "partner_code": "benjamin-borrero",
+      "partner_name": "Benjamin Borrero",
+      "partner_logo_url": "/logos/benjamin-borrero.png",
+      "partner_logo_alt_text": "Benjamin Borrero - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "blue-mint-thai": {
+      "partner_code": "blue-mint-thai",
+      "partner_name": "Blue Mint Thai",
+      "partner_logo_url": "/logos/blue-mint-thai.png",
+      "partner_logo_alt_text": "Blue Mint Thai - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "brad": {
+      "partner_code": "brad",
+      "partner_name": "Brad Gregory",
+      "partner_logo_url": "/logos/brad.png",
+      "partner_logo_alt_text": "Brad Gregory - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-nelsonb": {
+      "partner_code": "onesource-nelsonb",
+      "partner_name": "Brianna Nelson",
+      "partner_logo_url": "/logos/onesource-nelsonb.png",
+      "partner_logo_alt_text": "Brianna Nelson - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "bronco-power-boost": {
+      "partner_code": "bronco-power-boost",
+      "partner_name": "Bronco Power Boost",
+      "partner_logo_url": "/logos/bronco-power-boost.png",
+      "partner_logo_alt_text": "Bronco Power Boost - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "cp-bill-reader": {
+      "partner_code": "cp-bill-reader",
+      "partner_name": "CP Bill Reader",
+      "partner_logo_url": "/logos/cp-bill-reader.png",
+      "partner_logo_alt_text": "CP Bill Reader - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "cameron-maloney": {
+      "partner_code": "cameron-maloney",
+      "partner_name": "Cameron Maloney",
+      "partner_logo_url": "/logos/cameron-maloney.png",
+      "partner_logo_alt_text": "Cameron Maloney - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "ueserv": {
+      "partner_code": "ueserv",
+      "partner_name": "CasaModerna",
+      "partner_logo_url": "/logos/ueserv.png",
+      "partner_logo_alt_text": "CasaModerna - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "christopher-fanning": {
+      "partner_code": "christopher-fanning",
+      "partner_name": "Christopher Fanning",
+      "partner_logo_url": "/logos/christopher-fanning.png",
+      "partner_logo_alt_text": "Christopher Fanning - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "citizen-home-solutions": {
+      "partner_code": "citizen-home-solutions",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-aguilarj": {
+      "partner_code": "citizen-home-solutions-aguilarj",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-aguilarj.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-balloub": {
+      "partner_code": "citizen-home-solutions-balloub",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-balloub.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "citizen-home-solutions-byersk": {
+      "partner_code": "citizen-home-solutions-byersk",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-byersk.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-cantud": {
+      "partner_code": "citizen-home-solutions-cantud",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-cantud.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-carrillod": {
+      "partner_code": "citizen-home-solutions-carrillod",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-carrillod.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "citizen-home-solutions-chaveza": {
+      "partner_code": "citizen-home-solutions-chaveza",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-chaveza.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "citizen-home-solutions-churchwellc": {
+      "partner_code": "citizen-home-solutions-churchwellc",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-churchwellc.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "citizen-home-solutions-delatorrej": {
+      "partner_code": "citizen-home-solutions-delatorrej",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-delatorrej.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-drumgolec": {
+      "partner_code": "citizen-home-solutions-drumgolec",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-drumgolec.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-dyslinr": {
+      "partner_code": "citizen-home-solutions-dyslinr",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-dyslinr.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "citizen-home-solutions-etemadmoghaddami": {
+      "partner_code": "citizen-home-solutions-etemadmoghaddami",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-etemadmoghaddami.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "citizen-home-solutions-greenec": {
+      "partner_code": "citizen-home-solutions-greenec",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-greenec.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-guzmand": {
+      "partner_code": "citizen-home-solutions-guzmand",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-guzmand.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-hansena": {
+      "partner_code": "citizen-home-solutions-hansena",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-hansena.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "citizen-home-solutions-hardyd": {
+      "partner_code": "citizen-home-solutions-hardyd",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-hardyd.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-johnsona": {
+      "partner_code": "citizen-home-solutions-johnsona",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-johnsona.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-martlaror": {
+      "partner_code": "citizen-home-solutions-martlaror",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-martlaror.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "citizen-home-solutions-moralesg": {
+      "partner_code": "citizen-home-solutions-moralesg",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-moralesg.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "citizen-home-solutions-pashcalc": {
+      "partner_code": "citizen-home-solutions-pashcalc",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-pashcalc.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "citizen-home-solutions-penningtonc": {
+      "partner_code": "citizen-home-solutions-penningtonc",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-penningtonc.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-prooj": {
+      "partner_code": "citizen-home-solutions-prooj",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-prooj.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-rodriguezj": {
+      "partner_code": "citizen-home-solutions-rodriguezj",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-rodriguezj.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "citizen-home-solutions-trimblea": {
+      "partner_code": "citizen-home-solutions-trimblea",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-trimblea.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "citizen-home-solutions-velizj": {
+      "partner_code": "citizen-home-solutions-velizj",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-velizj.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "citizen-home-solutions-waferj": {
+      "partner_code": "citizen-home-solutions-waferj",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-waferj.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "citizen-home-solutions-yavoskiz": {
+      "partner_code": "citizen-home-solutions-yavoskiz",
+      "partner_name": "Citizen Home Solutions",
+      "partner_logo_url": "/logos/citizen-home-solutions-yavoskiz.png",
+      "partner_logo_alt_text": "Citizen Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "connect": {
+      "partner_code": "connect",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-albaytarp": {
+      "partner_code": "connect-albaytarp",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-albaytarp.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-cambronj": {
+      "partner_code": "connect-cambronj",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-cambronj.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "connect-caputom": {
+      "partner_code": "connect-caputom",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-caputom.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "connect-cliftonA": {
+      "partner_code": "connect-cliftonA",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-cliftonA.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "connect-fimreiter": {
+      "partner_code": "connect-fimreiter",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-fimreiter.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-garciai": {
+      "partner_code": "connect-garciai",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-garciai.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-henriem": {
+      "partner_code": "connect-henriem",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-henriem.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "connect-johnsons": {
+      "partner_code": "connect-johnsons",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-johnsons.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "connect-jonesj": {
+      "partner_code": "connect-jonesj",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-jonesj.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-keym": {
+      "partner_code": "connect-keym",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-keym.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-moloj": {
+      "partner_code": "connect-moloj",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-moloj.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "connect-moons": {
+      "partner_code": "connect-moons",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-moons.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-mostolesl": {
+      "partner_code": "connect-mostolesl",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-mostolesl.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-nabiea": {
+      "partner_code": "connect-nabiea",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-nabiea.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "connect-noblec": {
+      "partner_code": "connect-noblec",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-noblec.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "connect-queryv": {
+      "partner_code": "connect-queryv",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-queryv.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "connect-ramosr": {
+      "partner_code": "connect-ramosr",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-ramosr.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-rubioi": {
+      "partner_code": "connect-rubioi",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-rubioi.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-sesek": {
+      "partner_code": "connect-sesek",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-sesek.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "connect-stevensj": {
+      "partner_code": "connect-stevensj",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-stevensj.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "connect-viloriar": {
+      "partner_code": "connect-viloriar",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-viloriar.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-warstlerc": {
+      "partner_code": "connect-warstlerc",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-warstlerc.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-yorkk": {
+      "partner_code": "connect-yorkk",
+      "partner_name": "Connect",
+      "partner_logo_url": "/logos/connect-yorkk.png",
+      "partner_logo_alt_text": "Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "connect-my-new-home": {
+      "partner_code": "connect-my-new-home",
+      "partner_name": "Connect My New Home",
+      "partner_logo_url": "/logos/connect-my-new-home.png",
+      "partner_logo_alt_text": "Connect My New Home - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "connect-my-new-home-1": {
+      "partner_code": "connect-my-new-home-1",
+      "partner_name": "Connect My New Home",
+      "partner_logo_url": "/logos/connect-my-new-home-1.png",
+      "partner_logo_alt_text": "Connect My New Home - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "connect-my-new-home-2": {
+      "partner_code": "connect-my-new-home-2",
+      "partner_name": "Connect My New Home",
+      "partner_logo_url": "/logos/connect-my-new-home-2.png",
+      "partner_logo_alt_text": "Connect My New Home - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "connect-my-new-home-3": {
+      "partner_code": "connect-my-new-home-3",
+      "partner_name": "Connect My New Home",
+      "partner_logo_url": "/logos/connect-my-new-home-3.png",
+      "partner_logo_alt_text": "Connect My New Home - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "connie-crespo": {
+      "partner_code": "connie-crespo",
+      "partner_name": "Connie Crespo",
+      "partner_logo_url": "/logos/connie-crespo.png",
+      "partner_logo_alt_text": "Connie Crespo - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "crisis-jk-solutions": {
+      "partner_code": "crisis-jk-solutions",
+      "partner_name": "Crisis JK Solutions",
+      "partner_logo_url": "/logos/crisis-jk-solutions.png",
+      "partner_logo_alt_text": "Crisis JK Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "customer-choice-utilities": {
+      "partner_code": "customer-choice-utilities",
+      "partner_name": "Customer Choice Utilities",
+      "partner_logo_url": "/logos/customer-choice-utilities.png",
+      "partner_logo_alt_text": "Customer Choice Utilities - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "dfwconnect": {
+      "partner_code": "dfwconnect",
+      "partner_name": "DFWCONNECT",
+      "partner_logo_url": "/logos/dfwconnect.png",
+      "partner_logo_alt_text": "DFWCONNECT - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "daphne-jordan": {
+      "partner_code": "daphne-jordan",
+      "partner_name": "Daphne Jordan",
+      "partner_logo_url": "/logos/daphne-jordan.png",
+      "partner_logo_alt_text": "Daphne Jordan - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "diaz-na": {
+      "partner_code": "diaz-na",
+      "partner_name": "Diaz North America",
+      "partner_logo_url": "/logos/diaz-na.png",
+      "partner_logo_alt_text": "Diaz North America - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "ekp": {
+      "partner_code": "ekp",
+      "partner_name": "EKP Legacy Group",
+      "partner_logo_url": "/logos/ekp.png",
+      "partner_logo_alt_text": "EKP Legacy Group - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "eagle-mountain": {
+      "partner_code": "eagle-mountain",
+      "partner_name": "Eagle Mountain Solar",
+      "partner_logo_url": "/logos/eagle-mountain.png",
+      "partner_logo_alt_text": "Eagle Mountain Solar - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "elevate-at-skyline": {
+      "partner_code": "elevate-at-skyline",
+      "partner_name": "Elevate at Skyline Townhomes",
+      "partner_logo_url": "/logos/elevate-at-skyline.png",
+      "partner_logo_alt_text": "Elevate at Skyline Townhomes - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "emerald-park": {
+      "partner_code": "emerald-park",
+      "partner_name": "Emerald Park Apartments",
+      "partner_logo_url": "/logos/emerald-park.png",
+      "partner_logo_alt_text": "Emerald Park Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "energy-texas": {
+      "partner_code": "energy-texas",
+      "partner_name": "Energy Texas",
+      "partner_logo_url": "/logos/energy-texas.png",
+      "partner_logo_alt_text": "Energy Texas - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "evergreen-plano": {
+      "partner_code": "evergreen-plano",
+      "partner_name": "Evergreen at Plano",
+      "partner_logo_url": "/logos/evergreen-plano.png",
+      "partner_logo_alt_text": "Evergreen at Plano - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "far-group": {
+      "partner_code": "far-group",
+      "partner_name": "FAR Group",
+      "partner_logo_url": "/logos/far-group.png",
+      "partner_logo_alt_text": "FAR Group - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "find-energy": {
+      "partner_code": "find-energy",
+      "partner_name": "Find Energy",
+      "partner_logo_url": "/logos/find-energy.png",
+      "partner_logo_alt_text": "Find Energy - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "fowler-pm": {
+      "partner_code": "fowler-pm",
+      "partner_name": "Fowler Property Management",
+      "partner_logo_url": "/logos/fowler-pm.png",
+      "partner_logo_alt_text": "Fowler Property Management - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "geoff-cozby": {
+      "partner_code": "geoff-cozby",
+      "partner_name": "Geoff Cozby",
+      "partner_logo_url": "/logos/geoff-cozby.png",
+      "partner_logo_alt_text": "Geoff Cozby - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "gilbert-ortega": {
+      "partner_code": "gilbert-ortega",
+      "partner_name": "Gilbert Ortega",
+      "partner_logo_url": "/logos/gilbert-ortega.png",
+      "partner_logo_alt_text": "Gilbert Ortega - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "go-all-tech": {
+      "partner_code": "go-all-tech",
+      "partner_name": "Go All Tech",
+      "partner_logo_url": "/logos/go-all-tech.png",
+      "partner_logo_alt_text": "Go All Tech - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "heather-glen": {
+      "partner_code": "heather-glen",
+      "partner_name": "Heather Glen",
+      "partner_logo_url": "/logos/heather-glen.png",
+      "partner_logo_alt_text": "Heather Glen - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-nizarh": {
+      "partner_code": "onesource-nizarh",
+      "partner_name": "Hemn Nizar",
+      "partner_logo_url": "/logos/onesource-nizarh.png",
+      "partner_logo_alt_text": "Hemn Nizar - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "inspire-communications": {
+      "partner_code": "inspire-communications",
+      "partner_name": "Inspire Communications",
+      "partner_logo_url": "/logos/inspire-communications.png",
+      "partner_logo_alt_text": "Inspire Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "jaylon-ford": {
+      "partner_code": "jaylon-ford",
+      "partner_name": "Jaylon Ford",
+      "partner_logo_url": "/logos/jaylon-ford.png",
+      "partner_logo_alt_text": "Jaylon Ford - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "jeziel-arroyo": {
+      "partner_code": "jeziel-arroyo",
+      "partner_name": "Jeziel Arroyo",
+      "partner_logo_url": "/logos/jeziel-arroyo.png",
+      "partner_logo_alt_text": "Jeziel Arroyo - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "onesource-whitej": {
+      "partner_code": "onesource-whitej",
+      "partner_name": "Jordynn White",
+      "partner_logo_url": "/logos/onesource-whitej.png",
+      "partner_logo_alt_text": "Jordynn White - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "katiria-lajara": {
+      "partner_code": "katiria-lajara",
+      "partner_name": "Katiria Lajara",
+      "partner_logo_url": "/logos/katiria-lajara.png",
+      "partner_logo_alt_text": "Katiria Lajara - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "keyrenter-uptown-dallas": {
+      "partner_code": "keyrenter-uptown-dallas",
+      "partner_name": "KeyRenter Uptown Dallas",
+      "partner_logo_url": "/logos/keyrenter-uptown-dallas.png",
+      "partner_logo_alt_text": "KeyRenter Uptown Dallas - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "kim-pulido": {
+      "partner_code": "kim-pulido",
+      "partner_name": "Kimberly Moralez Pulido",
+      "partner_logo_url": "/logos/kim-pulido.png",
+      "partner_logo_alt_text": "Kimberly Moralez Pulido - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "las-palmitas": {
+      "partner_code": "las-palmitas",
+      "partner_name": "Las Palmitas Apartments",
+      "partner_logo_url": "/logos/las-palmitas.png",
+      "partner_logo_alt_text": "Las Palmitas Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-pattersonl": {
+      "partner_code": "onesource-pattersonl",
+      "partner_name": "Laura Patterson",
+      "partner_logo_url": "/logos/onesource-pattersonl.png",
+      "partner_logo_alt_text": "Laura Patterson - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "live-easy": {
+      "partner_code": "live-easy",
+      "partner_name": "LiveEasy",
+      "partner_logo_url": "/logos/live-easy.png",
+      "partner_logo_alt_text": "LiveEasy - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "mci-performance-group": {
+      "partner_code": "mci-performance-group",
+      "partner_name": "MCI Performance Group",
+      "partner_logo_url": "/logos/mci-performance-group.png",
+      "partner_logo_alt_text": "MCI Performance Group - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "monterey-marketing": {
+      "partner_code": "monterey-marketing",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "monterey-marketing-1": {
+      "partner_code": "monterey-marketing-1",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing-1.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "monterey-marketing-2": {
+      "partner_code": "monterey-marketing-2",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing-2.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "monterey-marketing-3": {
+      "partner_code": "monterey-marketing-3",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing-3.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "monterey-marketing-4": {
+      "partner_code": "monterey-marketing-4",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing-4.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "monterey-marketing-5": {
+      "partner_code": "monterey-marketing-5",
+      "partner_name": "Monterey Marketing",
+      "partner_logo_url": "/logos/monterey-marketing-5.png",
+      "partner_logo_alt_text": "Monterey Marketing - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "moverhub": {
+      "partner_code": "moverhub",
+      "partner_name": "MoverHub",
+      "partner_logo_url": "/logos/moverhub.png",
+      "partner_logo_alt_text": "MoverHub - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "movingin": {
+      "partner_code": "movingin",
+      "partner_name": "MovingIn",
+      "partner_logo_url": "/logos/movingin.png",
+      "partner_logo_alt_text": "MovingIn - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "my-energy-dude": {
+      "partner_code": "my-energy-dude",
+      "partner_name": "My Energy Dude",
+      "partner_logo_url": "/logos/my-energy-dude.png",
+      "partner_logo_alt_text": "My Energy Dude - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "nv-services": {
+      "partner_code": "nv-services",
+      "partner_name": "NV Services",
+      "partner_logo_url": "/logos/nv-services.png",
+      "partner_logo_alt_text": "NV Services - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "nex": {
+      "partner_code": "nex",
+      "partner_name": "Network Energy Xchange",
+      "partner_logo_url": "/logos/nex.png",
+      "partner_logo_alt_text": "Network Energy Xchange - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-mooreheadn": {
+      "partner_code": "onesource-mooreheadn",
+      "partner_name": "Neva'eh Moorehead",
+      "partner_logo_url": "/logos/onesource-mooreheadn.png",
+      "partner_logo_alt_text": "Neva'eh Moorehead - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "new-vision": {
+      "partner_code": "new-vision",
+      "partner_name": "New Vision",
+      "partner_logo_url": "/logos/new-vision.png",
+      "partner_logo_alt_text": "New Vision - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "nutiliti": {
+      "partner_code": "nutiliti",
+      "partner_name": "Nutiliti",
+      "partner_logo_url": "/logos/nutiliti.png",
+      "partner_logo_alt_text": "Nutiliti - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "onesource": {
+      "partner_code": "onesource",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "onesource-abbasr": {
+      "partner_code": "onesource-abbasr",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-abbasr.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-andersoni": {
+      "partner_code": "onesource-andersoni",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-andersoni.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-austind": {
+      "partner_code": "onesource-austind",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-austind.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-benej": {
+      "partner_code": "onesource-benej",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-benej.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "onesource-bordese": {
+      "partner_code": "onesource-bordese",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-bordese.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-christmand": {
+      "partner_code": "onesource-christmand",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-christmand.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-churchl": {
+      "partner_code": "onesource-churchl",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-churchl.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-costelloe": {
+      "partner_code": "onesource-costelloe",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-costelloe.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "onesource-crosbyx": {
+      "partner_code": "onesource-crosbyx",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-crosbyx.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-davisc": {
+      "partner_code": "onesource-davisc",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-davisc.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-downsa": {
+      "partner_code": "onesource-downsa",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-downsa.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "onesource-dyeb": {
+      "partner_code": "onesource-dyeb",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-dyeb.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "onesource-farnern": {
+      "partner_code": "onesource-farnern",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-farnern.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-flackt": {
+      "partner_code": "onesource-flackt",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-flackt.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-frazierl": {
+      "partner_code": "onesource-frazierl",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-frazierl.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-goochc": {
+      "partner_code": "onesource-goochc",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-goochc.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "onesource-greenj": {
+      "partner_code": "onesource-greenj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-greenj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-hallj": {
+      "partner_code": "onesource-hallj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-hallj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-hanischt": {
+      "partner_code": "onesource-hanischt",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-hanischt.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-hayesd": {
+      "partner_code": "onesource-hayesd",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-hayesd.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "onesource-jacob-jones": {
+      "partner_code": "onesource-jacob-jones",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-jacob-jones.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-jamesa": {
+      "partner_code": "onesource-jamesa",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-jamesa.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-jenkinsb": {
+      "partner_code": "onesource-jenkinsb",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-jenkinsb.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "onesource-jonesj": {
+      "partner_code": "onesource-jonesj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-jonesj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "onesource-jordanj": {
+      "partner_code": "onesource-jordanj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-jordanj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-kennerb": {
+      "partner_code": "onesource-kennerb",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-kennerb.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-kingd": {
+      "partner_code": "onesource-kingd",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-kingd.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-larryd": {
+      "partner_code": "onesource-larryd",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-larryd.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "onesource-mitchellj": {
+      "partner_code": "onesource-mitchellj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-mitchellj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-mooreb": {
+      "partner_code": "onesource-mooreb",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-mooreb.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-murphya": {
+      "partner_code": "onesource-murphya",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-murphya.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-nilhash": {
+      "partner_code": "onesource-nilhash",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-nilhash.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "onesource-nollal": {
+      "partner_code": "onesource-nollal",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-nollal.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-orrillc": {
+      "partner_code": "onesource-orrillc",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-orrillc.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-pasnokoth": {
+      "partner_code": "onesource-pasnokoth",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-pasnokoth.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "onesource-pletkat": {
+      "partner_code": "onesource-pletkat",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-pletkat.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "onesource-porzeltc": {
+      "partner_code": "onesource-porzeltc",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-porzeltc.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-rowei": {
+      "partner_code": "onesource-rowei",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-rowei.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-schwendemannw": {
+      "partner_code": "onesource-schwendemannw",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-schwendemannw.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-smita": {
+      "partner_code": "onesource-smita",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-smita.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "onesource-sorkj": {
+      "partner_code": "onesource-sorkj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-sorkj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "onesource-tannerb": {
+      "partner_code": "onesource-tannerb",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-tannerb.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-taylorj": {
+      "partner_code": "onesource-taylorj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-taylorj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-townsendj": {
+      "partner_code": "onesource-townsendj",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-townsendj.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "onesource-whitesitts": {
+      "partner_code": "onesource-whitesitts",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-whitesitts.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "onesource-wilmasn": {
+      "partner_code": "onesource-wilmasn",
+      "partner_name": "OneSource Solutions",
+      "partner_logo_url": "/logos/onesource-wilmasn.png",
+      "partner_logo_alt_text": "OneSource Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "outerbridge": {
+      "partner_code": "outerbridge",
+      "partner_name": "Outerbridge Industries",
+      "partner_logo_url": "/logos/outerbridge.png",
+      "partner_logo_alt_text": "Outerbridge Industries - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "paramount-home-solutions": {
+      "partner_code": "paramount-home-solutions",
+      "partner_name": "Paramount Home Solutions",
+      "partner_logo_url": "/logos/paramount-home-solutions.png",
+      "partner_logo_alt_text": "Paramount Home Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "petscreening": {
+      "partner_code": "petscreening",
+      "partner_name": "Petscreening",
+      "partner_logo_url": "/logos/petscreening.png",
+      "partner_logo_alt_text": "Petscreening - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "rtc-ventures": {
+      "partner_code": "rtc-ventures",
+      "partner_name": "RTC Ventures",
+      "partner_logo_url": "/logos/rtc-ventures.png",
+      "partner_logo_alt_text": "RTC Ventures - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "absolute-energy-stars": {
+      "partner_code": "absolute-energy-stars",
+      "partner_name": "Randall Zimmerman",
+      "partner_logo_url": "/logos/absolute-energy-stars.png",
+      "partner_logo_alt_text": "Randall Zimmerman - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "rhino-energy-brokers": {
+      "partner_code": "rhino-energy-brokers",
+      "partner_name": "Rhino Energy Brokers",
+      "partner_logo_url": "/logos/rhino-energy-brokers.png",
+      "partner_logo_alt_text": "Rhino Energy Brokers - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "rhythm-energy": {
+      "partner_code": "rhythm-energy",
+      "partner_name": "Rhythm Energy",
+      "partner_logo_url": "/logos/rhythm-energy.png",
+      "partner_logo_alt_text": "Rhythm Energy - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "river-trails": {
+      "partner_code": "river-trails",
+      "partner_name": "River Trails Apartments",
+      "partner_logo_url": "/logos/river-trails.png",
+      "partner_logo_alt_text": "River Trails Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "onesource-garretts": {
+      "partner_code": "onesource-garretts",
+      "partner_name": "Scarlett Garrett",
+      "partner_logo_url": "/logos/onesource-garretts.png",
+      "partner_logo_alt_text": "Scarlett Garrett - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "self": {
+      "partner_code": "self",
+      "partner_name": "Self",
+      "partner_logo_url": "/logos/self.png",
+      "partner_logo_alt_text": "Self - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "serena-vista": {
+      "partner_code": "serena-vista",
+      "partner_name": "Serena Vista Apartments",
+      "partner_logo_url": "/logos/serena-vista.png",
+      "partner_logo_alt_text": "Serena Vista Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "smart-city": {
+      "partner_code": "smart-city",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "smart-city-brubakerc": {
+      "partner_code": "smart-city-brubakerc",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-brubakerc.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "smart-city-cecilk": {
+      "partner_code": "smart-city-cecilk",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-cecilk.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "smart-city-eguias": {
+      "partner_code": "smart-city-eguias",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-eguias.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "smart-city-geekerc": {
+      "partner_code": "smart-city-geekerc",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-geekerc.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "smart-city-hoganl": {
+      "partner_code": "smart-city-hoganl",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-hoganl.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "smart-city-moityb": {
+      "partner_code": "smart-city-moityb",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-moityb.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "smart-city-rodriguezn": {
+      "partner_code": "smart-city-rodriguezn",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-rodriguezn.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "smart-city-sharpski-montazamib": {
+      "partner_code": "smart-city-sharpski-montazamib",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-sharpski-montazamib.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "smart-city-shulerr": {
+      "partner_code": "smart-city-shulerr",
+      "partner_name": "Smart City Concierge",
+      "partner_logo_url": "/logos/smart-city-shulerr.png",
+      "partner_logo_alt_text": "Smart City Concierge - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "smart-home-pro": {
+      "partner_code": "smart-home-pro",
+      "partner_name": "Smart Home Pro",
+      "partner_logo_url": "/logos/smart-home-pro.png",
+      "partner_logo_alt_text": "Smart Home Pro - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "start-my-services": {
+      "partner_code": "start-my-services",
+      "partner_name": "Start My Services",
+      "partner_logo_url": "/logos/start-my-services.png",
+      "partner_logo_alt_text": "Start My Services - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "surrealty": {
+      "partner_code": "surrealty",
+      "partner_name": "Surrealty Residential",
+      "partner_logo_url": "/logos/surrealty.png",
+      "partner_logo_alt_text": "Surrealty Residential - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "telemedia-solutions": {
+      "partner_code": "telemedia-solutions",
+      "partner_name": "Telemedia Solutions",
+      "partner_logo_url": "/logos/telemedia-solutions.png",
+      "partner_logo_alt_text": "Telemedia Solutions - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "texas-view": {
+      "partner_code": "texas-view",
+      "partner_name": "Texas View",
+      "partner_logo_url": "/logos/texas-view.png",
+      "partner_logo_alt_text": "Texas View - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "branch-connect": {
+      "partner_code": "branch-connect",
+      "partner_name": "The Branch Connect",
+      "partner_logo_url": "/logos/branch-connect.png",
+      "partner_logo_alt_text": "The Branch Connect - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "link-twin-creeks": {
+      "partner_code": "link-twin-creeks",
+      "partner_name": "The Link At Twin Creeks",
+      "partner_logo_url": "/logos/link-twin-creeks.png",
+      "partner_logo_alt_text": "The Link At Twin Creeks - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "touchstone-bpo": {
+      "partner_code": "touchstone-bpo",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "touchstone-bpo-allenm": {
+      "partner_code": "touchstone-bpo-allenm",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo-allenm.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "touchstone-bpo-furyb": {
+      "partner_code": "touchstone-bpo-furyb",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo-furyb.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "touchstone-bpo-johnsonm": {
+      "partner_code": "touchstone-bpo-johnsonm",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo-johnsonm.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "touchstone-bpo-parkerj": {
+      "partner_code": "touchstone-bpo-parkerj",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo-parkerj.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "touchstone-bpo-whites": {
+      "partner_code": "touchstone-bpo-whites",
+      "partner_name": "Touchstone Communications",
+      "partner_logo_url": "/logos/touchstone-bpo-whites.png",
+      "partner_logo_alt_text": "Touchstone Communications - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "utilities-for-my-home": {
+      "partner_code": "utilities-for-my-home",
+      "partner_name": "Utilities for My Home",
+      "partner_logo_url": "/logos/utilities-for-my-home.png",
+      "partner_logo_alt_text": "Utilities for My Home - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "utility-bellhop": {
+      "partner_code": "utility-bellhop",
+      "partner_name": "Utility Bellhop",
+      "partner_logo_url": "/logos/utility-bellhop.png",
+      "partner_logo_alt_text": "Utility Bellhop - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "utility-helpers": {
+      "partner_code": "utility-helpers",
+      "partner_name": "Utility Helpers",
+      "partner_logo_url": "/logos/utility-helpers.png",
+      "partner_logo_alt_text": "Utility Helpers - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "utility-helpers-cavitta": {
+      "partner_code": "utility-helpers-cavitta",
+      "partner_name": "Utility Helpers",
+      "partner_logo_url": "/logos/utility-helpers-cavitta.png",
+      "partner_logo_alt_text": "Utility Helpers - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "utility-helpers-leonw": {
+      "partner_code": "utility-helpers-leonw",
+      "partner_name": "Utility Helpers",
+      "partner_logo_url": "/logos/utility-helpers-leonw.png",
+      "partner_logo_alt_text": "Utility Helpers - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "utility-profit": {
+      "partner_code": "utility-profit",
+      "partner_name": "Utility Profit",
+      "partner_logo_url": "/logos/utility-profit.png",
+      "partner_logo_alt_text": "Utility Profit - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "utility-valet": {
+      "partner_code": "utility-valet",
+      "partner_name": "Utility Valet",
+      "partner_logo_url": "/logos/utility-valet.png",
+      "partner_logo_alt_text": "Utility Valet - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "utility-valet-lena": {
+      "partner_code": "utility-valet-lena",
+      "partner_name": "Utility Valet",
+      "partner_logo_url": "/logos/utility-valet-lena.png",
+      "partner_logo_alt_text": "Utility Valet - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "utility-valet-luisa": {
+      "partner_code": "utility-valet-luisa",
+      "partner_name": "Utility Valet",
+      "partner_logo_url": "/logos/utility-valet-luisa.png",
+      "partner_logo_alt_text": "Utility Valet - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "utility-hound": {
+      "partner_code": "utility-hound",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    },
+    "utility-hound1": {
+      "partner_code": "utility-hound1",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound1.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#7C3AED",
+        "secondary": "#EF4444"
+      }
+    },
+    "utility-hound2": {
+      "partner_code": "utility-hound2",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound2.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#22baed",
+        "secondary": "#eb5a41"
+      }
+    },
+    "utility-hound3": {
+      "partner_code": "utility-hound3",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound3.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#3B82F6",
+        "secondary": "#EF4444"
+      }
+    },
+    "utility-hound4": {
+      "partner_code": "utility-hound4",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound4.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#10B981",
+        "secondary": "#F59E0B"
+      }
+    },
+    "utility-hound5": {
+      "partner_code": "utility-hound5",
+      "partner_name": "UtilityHound",
+      "partner_logo_url": "/logos/utility-hound5.png",
+      "partner_logo_alt_text": "UtilityHound - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#8B5CF6",
+        "secondary": "#EC4899"
+      }
+    },
+    "utility-on": {
+      "partner_code": "utility-on",
+      "partner_name": "UtilityOn",
+      "partner_logo_url": "/logos/utility-on.png",
+      "partner_logo_alt_text": "UtilityOn - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#F97316",
+        "secondary": "#06B6D4"
+      }
+    },
+    "vanessa-fernandez": {
+      "partner_code": "vanessa-fernandez",
+      "partner_name": "Vanessa Fernandez",
+      "partner_logo_url": "/logos/vanessa-fernandez.png",
+      "partner_logo_alt_text": "Vanessa Fernandez - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#84CC16",
+        "secondary": "#DC2626"
+      }
+    },
+    "waters-park": {
+      "partner_code": "waters-park",
+      "partner_name": "Waters Park Apartments",
+      "partner_logo_url": "/logos/waters-park.png",
+      "partner_logo_alt_text": "Waters Park Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#6366F1",
+        "secondary": "#F59E0B"
+      }
+    },
+    "windmill-terrace": {
+      "partner_code": "windmill-terrace",
+      "partner_name": "Windmill Terrace",
+      "partner_logo_url": "/logos/windmill-terrace.png",
+      "partner_logo_alt_text": "Windmill Terrace - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#14B8A6",
+        "secondary": "#EF4444"
+      }
+    },
+    "woodbridge": {
+      "partner_code": "woodbridge",
+      "partner_name": "Woodbridge Apartments",
+      "partner_logo_url": "/logos/woodbridge.png",
+      "partner_logo_alt_text": "Woodbridge Apartments - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#A855F7",
+        "secondary": "#F97316"
+      }
+    },
+    "yeshua-ortiz": {
+      "partner_code": "yeshua-ortiz",
+      "partner_name": "Yeshua Ortiz",
+      "partner_logo_url": "/logos/yeshua-ortiz.png",
+      "partner_logo_alt_text": "Yeshua Ortiz - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#059669",
+        "secondary": "#DC2626"
+      }
+    },
+    "zuhair-abbas": {
+      "partner_code": "zuhair-abbas",
+      "partner_name": "Zuhair Abbas",
+      "partner_logo_url": "/logos/zuhair-abbas.png",
+      "partner_logo_alt_text": "Zuhair Abbas - Powered by Compare Power",
+      "active_status": true,
+      "brand_colors": {
+        "primary": "#2563EB",
+        "secondary": "#F59E0B"
+      }
+    }
+  }
+}
