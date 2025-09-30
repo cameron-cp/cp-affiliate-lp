@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="bg-white p-3 rounded-lg inline-block mb-4">
+            <div className="inline-block mb-4">
               <Image
                 src={CP_BRAND.logo_url}
                 alt={CP_BRAND.logo_alt}

@@ -7,7 +7,7 @@ export function WhyChooseSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
           <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 mb-3">Trusted by 2M+ Texans</span>
-          <h2 className="text-3xl font-bold text-gray-900">Why Choose ComparePower</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Why Choose Compare Power</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
             The fastest, most trusted way to get electricity in Texas
           </p>
@@ -15,7 +15,7 @@ export function WhyChooseSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100 hover:shadow-md transition-all">
-            <div className="h-14 w-14 rounded-full bg-cp-primary/10 flex items-center justify-center text-cp-primary mb-5">
+            <div className="h-14 w-14 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 mb-5">
               <Clock className="h-7 w-7" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">5-Minute Setup</h3>
@@ -55,7 +55,7 @@ export function WhyChooseSection() {
           </div>
 
           <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100 hover:shadow-md transition-all">
-            <div className="h-14 w-14 rounded-full bg-cp-primary/10 flex items-center justify-center text-cp-primary mb-5">
+            <div className="h-14 w-14 rounded-full bg-orange-100 flex items-center justify-center text-orange-600 mb-5">
               <Zap className="h-7 w-7" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Same-Day Service</h3>

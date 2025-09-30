@@ -24,16 +24,21 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden">
+      {/* Background pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:32px_32px]"></div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
-          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-cp-primary/10 text-cp-primary mb-3">How It Works</span>
-          <h2 className="text-3xl font-bold text-gray-900">3 Simple Steps to Get Connected</h2>
+          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-cp-primary/20 text-cp-primary mb-3">How It Works</span>
+          <h2 className="text-3xl font-bold text-white">3 Simple Steps to Get Connected</h2>
         </div>
 
         <div className="relative">
           {/* Connecting line */}
-          <div className="absolute top-24 left-0 right-0 h-0.5 bg-gray-100 md:block hidden"></div>
+          <div className="absolute top-24 left-0 right-0 h-0.5 bg-white/20 md:block hidden"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
