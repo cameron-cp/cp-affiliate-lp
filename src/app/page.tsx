@@ -1,7 +1,6 @@
 import { getPartnerConfig } from '@/lib/partners';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { WhyChooseSection } from '@/components/sections/WhyChooseSection';
-import { UnscrewTexasSection } from '@/components/sections/UnscrewTexasSection';
 import { HowItWorks } from '@/components/sections/HowItWorks';
 import { FeaturesSection } from '@/components/sections/FeaturesSection';
 import { ServiceTransferSection } from '@/components/sections/ServiceTransferSection';
@@ -24,10 +23,9 @@ export default async function HomePage({ searchParams }: PageProps) {
     <main className="min-h-screen">
       <HeroSection partner={partnerConfig} />
       <WhyChooseSection />
-      <UnscrewTexasSection />
       <HowItWorks />
-      <FeaturesSection />
       <ServiceTransferSection />
+      <FeaturesSection />
       <Testimonials />
       <FinalCTASection />
       <FAQ />

@@ -94,6 +94,21 @@ export function FeaturesSection() {
             </div>
           ))}
         </div>
+
+        {/* Micro-CTA Section */}
+        <div className="text-center mt-16">
+          <div className="bg-gradient-to-r from-cp-primary/5 to-cp-secondary/5 rounded-2xl p-8 border border-cp-primary/20">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Ready to experience the difference?
+            </h3>
+            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
+              Join thousands of Texans who&apos;ve made the switch to smarter electricity shopping
+            </p>
+            <button className="bg-cp-primary hover:bg-cp-primary/90 text-white px-8 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl">
+              Find My Perfect Plan
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -6,9 +6,10 @@ export function WhyChooseSection() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-10">
+          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800 mb-3">Trusted by 2M+ Texans</span>
           <h2 className="text-3xl font-bold text-gray-900">Why Choose ComparePower</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-            Join 2 million+ satisfied Texans who&apos;ve simplified their electricity setup
+            The fastest, most trusted way to get electricity in Texas
           </p>
         </div>
 
