@@ -27,7 +27,7 @@ export function HowItWorks() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-cp-primary/10 text-cp-primary mb-3">How It Works</span>
+          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800 mb-3">How It Works</span>
           <h2 className="text-3xl font-bold text-gray-900">3 Simple Steps to Get Connected</h2>
         </div>
 
