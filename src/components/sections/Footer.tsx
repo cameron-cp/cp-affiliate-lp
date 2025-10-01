@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, Heart } from 'lucide-react';
 import { CP_BRAND } from '@/lib/partners';
 
 export function Footer() {
@@ -15,7 +15,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="inline-block mb-4">
               <Image
-                src={CP_BRAND.logo_url}
+                src="/logos/CPLogo_4C_H_Reverse.svg"
                 alt={CP_BRAND.logo_alt}
                 width={150}
                 height={60}
@@ -23,8 +23,14 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              Texas&apos;s leading electricity marketplace, helping millions of Texans save money on their electricity bills since 2012.
+              Texas&apos;s leading electricity marketplace, helping millions of Texans save money on their electricity bills since 2009.
             </p>
+
+            {/* Made in Texas pill */}
+            <div className="inline-flex items-center px-3 py-1 bg-gray-800 rounded-full text-xs text-gray-300 mb-4">
+              <Heart className="h-3 w-3 text-red-400 mr-1" />
+              <span>Made in Texas</span>
+            </div>
             <div className="space-y-2">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-cp-primary" />
@@ -33,10 +39,6 @@ export function Footer() {
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-cp-primary" />
                 <span className="text-gray-300">support@comparepower.com</span>
-              </div>
-              <div className="flex items-center">
-                <MapPin className="h-4 w-4 mr-2 text-cp-primary" />
-                <span className="text-gray-300">Austin, Texas</span>
               </div>
             </div>
           </div>

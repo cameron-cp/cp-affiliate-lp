@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Check, Clock, Zap, ShieldCheck, DollarSign, ExternalLink, MapPin, ArrowRight } from 'lucide-react';
+import { Check, CalendarCheck, Zap, SquareUserRound, SearchCheck, Laugh, MonitorSpeaker, MapPin, ArrowRight } from 'lucide-react';
 
 export function FeaturesSection() {
   const [zipCode, setZipCode] = useState('');
@@ -17,7 +17,7 @@ export function FeaturesSection() {
     {
       title: "Same-Day Service",
       description: "Need power today? Get connected by 8PM when you order before 5PM on weekdays and Saturdays.",
-      icon: <Clock className="h-6 w-6" />,
+      icon: <CalendarCheck className="h-6 w-6" />,
       bgColor: "bg-blue-100",
       textColor: "text-blue-600",
       bullets: [
@@ -39,7 +39,7 @@ export function FeaturesSection() {
     {
       title: "Personalized Recommendations",
       description: "Get plan recommendations tailored to your specific home profile and usage patterns.",
-      icon: <ShieldCheck className="h-6 w-6" />,
+      icon: <SquareUserRound className="h-6 w-6" />,
       bgColor: "bg-green-100",
       textColor: "text-green-600",
       bullets: [
@@ -50,7 +50,7 @@ export function FeaturesSection() {
     {
       title: "Transparent Pricing",
       description: "See all-in prices with no hidden fees. Compare options based on your actual usage.",
-      icon: <DollarSign className="h-6 w-6" />,
+      icon: <SearchCheck className="h-6 w-6" />,
       bgColor: "bg-purple-100",
       textColor: "text-purple-600",
       bullets: [
@@ -61,7 +61,7 @@ export function FeaturesSection() {
     {
       title: "No-Deposit Options",
       description: "Many plans available with no security deposit required, saving you $100-400 upfront.",
-      icon: <ShieldCheck className="h-6 w-6" />,
+      icon: <Laugh className="h-6 w-6" />,
       bgColor: "bg-yellow-100",
       textColor: "text-yellow-600",
       bullets: [
@@ -72,7 +72,7 @@ export function FeaturesSection() {
     {
       title: "100% Online Signup",
       description: "Complete your entire electricity setup online without phone calls or paperwork.",
-      icon: <ExternalLink className="h-6 w-6" />,
+      icon: <MonitorSpeaker className="h-6 w-6" />,
       bgColor: "bg-indigo-100",
       textColor: "text-indigo-600",
       bullets: [

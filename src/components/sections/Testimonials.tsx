@@ -36,7 +36,7 @@ export function Testimonials() {
               ))}
             </div>
             <span className="ml-2 text-sm font-medium text-gray-700">4.9/5</span>
-            <span className="ml-1 text-xs text-gray-500">(79,124 reviews)</span>
+            <span className="ml-1 text-xs text-gray-500">(80,000+ reviews... and counting)</span>
           </div>
         </div>
 

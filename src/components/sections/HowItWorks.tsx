@@ -24,15 +24,15 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-cp-primary to-blue-800 text-white relative overflow-hidden">
       {/* Background pattern */}
-      <div className="absolute inset-0 opacity-5">
+      <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:32px_32px]"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center mb-16">
-          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-cp-primary/20 text-cp-primary mb-3">How It Works</span>
+          <span className="inline-block px-3 py-1 rounded-full text-sm font-medium bg-white/20 text-white mb-3">How It Works</span>
           <h2 className="text-3xl font-bold text-white">3 Simple Steps to Get Connected</h2>
         </div>
 
@@ -44,7 +44,11 @@ export function HowItWorks() {
             {steps.map((step, index) => (
                 <div key={index} className="relative">
                   <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md transition-all h-full flex flex-col">
-                    <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-0 h-16 w-16 rounded-full bg-cp-primary text-white flex items-center justify-center text-xl font-bold">
+                    <div className={`absolute -top-8 left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-0 h-16 w-16 rounded-full ${
+                      index === 0 ? 'bg-cp-secondary text-white' :
+                      index === 1 ? 'bg-yellow-500 text-white' :
+                      'bg-green-600 text-white'
+                    } flex items-center justify-center text-xl font-bold shadow-lg`}>
                       {step.step}
                     </div>
                     <div className="mt-8 md:mt-0 md:ml-12">
