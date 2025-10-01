@@ -1,16 +1,30 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
 import { Check, CalendarCheck, Zap, SquareUserRound, SearchCheck, Laugh, MonitorSpeaker, MapPin, ArrowRight } from 'lucide-react';
 
-export function FeaturesSection() {
-  const [zipCode, setZipCode] = useState('');
+const zipCodeSchema = z.object({
+  zipCode: z.string()
+    .min(5, 'ZIP code must be 5 digits')
+    .max(5, 'ZIP code must be 5 digits')
+    .regex(/^\d{5}$/, 'ZIP code must contain only numbers'),
+});
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (zipCode.length === 5) {
-      window.location.href = `https://orders.comparepower.com/?zip_code=${zipCode}`;
-    }
+type ZipCodeFormData = z.infer<typeof zipCodeSchema>;
+
+export function FeaturesSection() {
+  const form = useForm<ZipCodeFormData>({
+    resolver: zodResolver(zipCodeSchema),
+    defaultValues: {
+      zipCode: '',
+    },
+  });
+
+  const onSubmit = (data: ZipCodeFormData) => {
+    window.location.href = `https://orders.comparepower.com/?zip_code=${data.zipCode}`;
   };
 
   const features = [
@@ -128,30 +142,39 @@ export function FeaturesSection() {
               Join thousands of Texans who&apos;ve made the switch to smarter electricity shopping
             </p>
 
-            <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-              <div className="flex gap-3">
-                <div className="relative flex-1">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <MapPin className="h-5 w-5 text-gray-400" />
+            {/* Fixed form submission */}
+            <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-md mx-auto">
+              <div className="space-y-2">
+                <div className="flex gap-3">
+                  <div className="relative flex-1">
+                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                      <MapPin className="h-5 w-5 text-gray-400" />
+                    </div>
+                    <input
+                      type="text"
+                      {...form.register('zipCode')}
+                      onChange={(e) => {
+                        const value = e.target.value.replace(/\D/g, '').slice(0, 5);
+                        form.setValue('zipCode', value);
+                      }}
+                      placeholder="Enter ZIP code"
+                      maxLength={5}
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-cp-primary focus:border-cp-primary text-base"
+                      style={{ fontSize: '16px' }}
+                    />
                   </div>
-                  <input
-                    type="text"
-                    value={zipCode}
-                    onChange={(e) => setZipCode(e.target.value.replace(/\D/g, '').slice(0, 5))}
-                    placeholder="Enter ZIP code"
-                    maxLength={5}
-                    className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-cp-primary focus:border-cp-primary text-base"
-                    style={{ fontSize: '16px' }}
-                  />
+                  <button
+                    type="submit"
+                    className="bg-cp-secondary hover:bg-cp-secondary/90 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl flex items-center"
+                    style={{ backgroundColor: '#eb5a41' }}
+                  >
+                    Find Plans
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </button>
                 </div>
-                <button
-                  type="submit"
-                  disabled={zipCode.length !== 5}
-                  className="bg-cp-secondary hover:bg-cp-secondary/90 disabled:opacity-50 disabled:cursor-not-allowed text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl flex items-center"
-                >
-                  Find Plans
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
+                {form.formState.errors.zipCode && (
+                  <p className="text-sm text-red-600">{form.formState.errors.zipCode.message}</p>
+                )}
               </div>
             </form>
           </div>
