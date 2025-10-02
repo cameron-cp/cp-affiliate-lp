@@ -35,7 +35,7 @@ export function ServiceTransferSection() {
   };
 
   const handleFormStart = () => {
-    analytics.formStart('transfer', 'cta');
+    analytics.formStart('transfer', 'hero');
   };
   return (
     <section className="py-16 bg-gradient-to-br from-amber-50 to-amber-100 border-y border-amber-100">
