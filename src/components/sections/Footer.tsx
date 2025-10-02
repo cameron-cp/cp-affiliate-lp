@@ -34,7 +34,7 @@ export function Footer() {
             <div className="space-y-2">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-cp-primary" />
-                <span className="text-gray-300">(855) 441-7816</span>
+                <span className="text-gray-300">(855) 858-9800</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-cp-primary" />
@@ -48,27 +48,27 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  How It Works
+                <a href="https://comparepower.com/answers/" className="text-gray-300 hover:text-white transition-colors">
+                  Learning Center
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Electricity Plans
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Energy Tips
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://comparepower.com/reviews/" className="text-gray-300 hover:text-white transition-colors">
                   Customer Reviews
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://comparepower.com/same-day-electricity-service-today/" className="text-gray-300 hover:text-white transition-colors">
+                  Same-Day Electricity
+                </a>
+              </li>
+              <li>
+                <a href="https://comparepower.com/no-deposit-electricity-no-credit-check/" className="text-gray-300 hover:text-white transition-colors">
+                  No Deposit Electricity
+                </a>
+              </li>
+              <li>
+                <a href="https://comparepower.com/contact-us/" className="text-gray-300 hover:text-white transition-colors">
                   Contact Us
                 </a>
               </li>
@@ -80,28 +80,13 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://comparepower.com/terms/" className="text-gray-300 hover:text-white transition-colors">
                   Terms of Service
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
+                <a href="https://comparepower.com/privacy/" className="text-gray-300 hover:text-white transition-colors">
                   Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Do Not Sell My Info
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  Accessibility
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">
-                  License Information
                 </a>
               </li>
             </ul>
@@ -114,14 +99,11 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Compare Power. All rights reserved.
+              © {currentYear} Compare Power, LLC. All rights reserved.
             </div>
             <div className="text-gray-400 text-sm text-center md:text-right">
               <p>
-                Compare Power is a licensed retail electricity provider broker in Texas.
-              </p>
-              <p className="mt-1">
-                PUCT License #BR190123 | Better Business Bureau A+ Rating
+                PUCT License #BR190020
               </p>
             </div>
           </div>

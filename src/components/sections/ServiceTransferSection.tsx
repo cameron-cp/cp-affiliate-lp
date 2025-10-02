@@ -1,7 +1,42 @@
+'use client';
+
 import React from 'react';
-import { AlertTriangle, ArrowRight } from 'lucide-react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { AlertTriangle, ArrowRight, MapPin } from 'lucide-react';
+import { buildRedirectUrl } from '@/lib/partners';
+import { analytics } from '@/lib/analytics';
+
+const zipCodeSchema = z.object({
+  zipCode: z.string()
+    .min(5, 'ZIP code must be 5 digits')
+    .max(5, 'ZIP code must be 5 digits')
+    .regex(/^\d{5}$/, 'ZIP code must contain only numbers'),
+});
+
+type ZipCodeFormData = z.infer<typeof zipCodeSchema>;
 
 export function ServiceTransferSection() {
+  const form = useForm<ZipCodeFormData>({
+    resolver: zodResolver(zipCodeSchema),
+    defaultValues: {
+      zipCode: '',
+    },
+  });
+
+  const onSubmit = (data: ZipCodeFormData) => {
+    // Track form submission
+    analytics.formSubmit('transfer', 'medium', data.zipCode);
+
+    // Default to medium home size for this simplified form
+    const redirectUrl = buildRedirectUrl(data.zipCode, 'medium');
+    window.location.href = redirectUrl;
+  };
+
+  const handleFormStart = () => {
+    analytics.formStart('transfer', 'cta');
+  };
   return (
     <section className="py-16 bg-gradient-to-br from-amber-50 to-amber-100 border-y border-amber-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,10 +85,47 @@ export function ServiceTransferSection() {
               </div>
 
               <div className="text-center">
-                <button className="bg-amber-600 hover:bg-amber-700 text-white inline-flex items-center px-6 py-3 shadow-md rounded-xl transition-all">
-                  Compare My Options
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
+                <form onSubmit={form.handleSubmit(onSubmit)} className="max-w-lg mx-auto">
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <div className="relative flex-1">
+                      <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <MapPin className="h-5 w-5 text-gray-400" />
+                      </div>
+                      <input
+                        {...form.register('zipCode')}
+                        type="text"
+                        placeholder="Enter your ZIP code"
+                        maxLength={5}
+                        className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-amber-600 focus:border-amber-600 text-base"
+                        style={{ fontSize: '16px' }} // Prevent iOS zoom
+                        onFocus={handleFormStart}
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      className="bg-amber-600 hover:bg-amber-700 text-white inline-flex items-center px-6 py-3 shadow-md rounded-xl transition-all disabled:opacity-50 active:scale-95 active:shadow-sm whitespace-nowrap sm:w-auto w-full"
+                      disabled={form.formState.isSubmitting}
+                    >
+                      {form.formState.isSubmitting ? (
+                        <div className="flex items-center justify-center">
+                          <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                          </svg>
+                          Finding...
+                        </div>
+                      ) : (
+                        <span className="flex items-center justify-center">
+                          Compare My Options
+                          <ArrowRight className="ml-2 h-5 w-5" />
+                        </span>
+                      )}
+                    </button>
+                  </div>
+                  {form.formState.errors.zipCode && (
+                    <p className="mt-2 text-sm text-red-600 text-center">{form.formState.errors.zipCode.message}</p>
+                  )}
+                </form>
               </div>
             </div>
           </div>

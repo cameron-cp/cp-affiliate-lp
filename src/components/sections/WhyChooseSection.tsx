@@ -24,11 +24,11 @@ export function WhyChooseSection() {
             </p>
             <ul className="space-y-2">
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">Instant account creation</span>
               </li>
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">Digital proof of service</span>
               </li>
             </ul>
@@ -44,11 +44,11 @@ export function WhyChooseSection() {
             </p>
             <ul className="space-y-2">
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">Personalized plan recommendations</span>
               </li>
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">Transparent pricing</span>
               </li>
             </ul>
@@ -64,11 +64,11 @@ export function WhyChooseSection() {
             </p>
             <ul className="space-y-2">
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">No wait times</span>
               </li>
               <li className="flex items-start">
-                <Check className="h-5 w-5 text-cp-primary mr-2 flex-shrink-0 mt-0.5" />
+                <Check className="h-5 w-5 text-green-600 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-600">Perfect for last-minute moves</span>
               </li>
             </ul>
